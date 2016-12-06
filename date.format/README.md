@@ -29,4 +29,13 @@
 - tt &nbsp;&nbsp;&nbsp;&nbsp;"am" : "pm"
 - T &nbsp;&nbsp;&nbsp;&nbsp;"A"  : "P"
 - TT&nbsp;&nbsp;&nbsp;&nbsp;"AM" : "PM",
- 
+  ### 计算日期
+```
+var date=new Date().calculate("d",'2013-02-26','2016-02-26');
+```
+ **.calculate()参数说明**：
+后两个参数为时间，最后一个不传，默认为当前时间；参数可以为时间戳
+第一个参数为返回类型
+- y&nbsp;&nbsp;&nbsp;&nbsp;返回两个时间相差年（此值为估值）
+- m&nbsp;&nbsp;&nbsp;&nbsp;相差月份
+- d&nbsp;&nbsp;&nbsp;&nbsp;相差天数
