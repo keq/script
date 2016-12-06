@@ -31,7 +31,9 @@
 - tt &nbsp;&nbsp;&nbsp;&nbsp;"am" : "pm"
 - T &nbsp;&nbsp;&nbsp;&nbsp;"A"  : "P"
 - TT&nbsp;&nbsp;&nbsp;&nbsp;"AM" : "PM",
+
   ### 计算日期
+  
 ```
 var date=new Date().calculate("d",'2013-02-26','2016-02-26');
 ```
