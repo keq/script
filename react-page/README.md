@@ -8,9 +8,11 @@ ReactDOM.render(
 `
 
 ###参数说明
+
 count 总页数
 
 onClick 回调函数
 
 ###样式引进
+
 \<link rel="stylesheet" href="css/react-page.css">
