@@ -17,13 +17,13 @@ ReactDOM.render(
 
 ## 参数说明
 
-count 总页数
+count 总页数(为1不显示分页组件)
 
 onClick 回调函数
 
 ## 样式引进
 
-\<link rel="stylesheet" href="css/react-page.css">
+`<link rel="stylesheet" href="css/react-page.css">`
 ## js引入（js为打包后自动生成文件，按路径引入）
 `<script src="build/common.js"></script>`
 
