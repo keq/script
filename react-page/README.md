@@ -24,3 +24,7 @@ onClick 回调函数
 ## 样式引进
 
 \<link rel="stylesheet" href="css/react-page.css">
+## js引入（js为打包后自动生成文件，按路径引入）
+`<script src="build/common.js"></script>`
+
+`<script src="build/react-page.bundle.js"></script>`
