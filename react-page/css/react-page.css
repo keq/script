@@ -1,0 +1,54 @@
+/*分页组件样式*/
+.rcj-page{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.rcj-page a{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ebebeb;
+  font-size: 12px;
+  line-height: 30px;
+  border-radius: 2px;
+  margin-left: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #555;
+}
+.rcj-page .active{
+  background: #1dd1bc;
+  color: #fff;
+  cursor: default;
+}
+
+.rcj-page .page-next{
+  background: #f9f9f9;
+}
+.rcj-page .page-prev{
+  background: #f9f9f9;
+}
+.rcj-page .font-enter{
+  display: inline-block;
+}
+.rcj-page .font-enter{
+  font-size: 12px;
+  color: #555;
+}
+.rcj-page .font-enter span{
+  margin:0 8px 0 4px;
+}
+.rcj-page .font-enter input{
+  margin:0 4px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e2e2e2;
+  text-align: center;
+  outline: none;
+  padding: 0;
+}
+.rcj-page .font-enter .enter-button{
+  width: 44px;
+  height: 30px;
+}
